@@ -70,8 +70,19 @@ position: center;
 transition: 1s;
 }
 header{
-background-color: #144E89;
-height: 250px;
+background-color: rgba(129 ,189 ,225, 0.2);
+}
+.banner{
+    height: 150px;
+    background-image: url("/home/lawrence/Desktop/WeConnect_Lawrence/designs/UI/static/banner01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nav{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
 }
 .grid-container {
     display: grid;
