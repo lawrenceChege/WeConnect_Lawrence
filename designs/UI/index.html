@@ -1,14 +1,66 @@
 <!Doctype <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <!--meta data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale-1,shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--title of the page-->
+    <title>WeConnect</title>
+
+    <!-- links to css ,bootstrap and fonts--> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> 
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/fonts/glyphicons-halflings-regular.svg">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/font-awesome.min.css">
+    <link rel="stylesheet"  href="css/font-awesome.css">
+    <link rel="stylesheet"  href="css/custom.css">
+
+    <!-- java script for bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
+    <header>
+        <!-- company banner or logo-->
+        <div class="banner">
+            <img alt="" src="images/2.jpg" style="width: 1400px; height: 170px" />
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--company name-->
+            <a class="navbar-brand" href="#">WeConnect</a>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <div class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <a class="nav-link active" href="index.html"  style="padding-right:10px">Home <span class="sr-only">(current)</span></a>
+                </div>
+                    <!--search log in and sign up-->
+                <div class="nav navbar-nav navbar-right">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html"  style="padding-right:10px">Log in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="signup.html"  style="padding-right:10px">Sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     
 </body>
 </html>
