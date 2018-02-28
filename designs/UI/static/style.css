@@ -103,10 +103,29 @@ background-color: rgba(129 ,189 ,225, 0.2);
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     padding: 10px 0;
-  }
- #hotel > img{
-    border-radius: 50%;
+}
+#park > img{
+    border-radius: 20%;
+}
+#garden > img{
+    border-radius: 15%;
+}
+#cafe > img{
+    border-radius: 18%;
+}
+#hospital > img{
+    border-radius: 23%;
+}
+#hotel > img{
+    border-radius: 30%;
 }
 .search{
     display: inline-flex;
+}
+.card {
+    margin-bottom: 20px;
+    background-color: dodgerblue;
+}
+.row > .form-inline {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
