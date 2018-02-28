@@ -7,6 +7,4 @@ install: True
 # Test script
 script:
   True
-script: nosetests --with-coverage --cover-package=tests && coverage report
-script: coverage report
 after_success: coveralls 
