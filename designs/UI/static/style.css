@@ -27,7 +27,12 @@
 }
 .form-contols{
     background: rgba(129 ,189 ,225, 0.8);
-    width: 50%;
+    width: 50%;    
+}
+.panel > .form-group{
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    background: rgba(129 ,189 ,225, 0.8);
 }
 span{
 width: 40px;
@@ -48,8 +53,8 @@ box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.432);
 .nav{
     text-align: center;
 }
-body{
-    background-image: url('static/being.jpg');
+body {
+    background-image: url("/home/lawrence/Desktop/WeConnect_Lawrence/designs/UI/static/images/being.jpg");
     background-color: dodgerblue;
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,14 +67,46 @@ body{
 }
 
 .panel{
-background-color:#81BDE1;
+background-color:rgba(129 ,189 ,225, 0.2);
 border: 0px;
 text-align: center;
 padding-top: 70px;
 position: center;
-transition: 0.5s;
+transition: 1s;
 }
 header{
-background-color: #144E89;
-height: 250px;
-}*/
+background-color: rgba(129 ,189 ,225, 0.2);
+}
+.ban{
+    height: 150px;
+    background-image: url("/home/lawrence/Desktop/WeConnect_Lawrence/designs/UI/static/images/banner01.jpg");
+   /* background-size: cover;*/
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: relative;
+    max-width: 100%;
+}
+.ban > .navbar-nav{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+.grid-container {
+    display: grid;
+    height: auto;
+    width: auto;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 10px 0;
+  }
+ #hotel > img{
+    border-radius: 50%;
+}
+.search{
+    display: inline-flex;
+}

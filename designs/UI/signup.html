@@ -29,9 +29,10 @@
 <body>
     <header>
         <!-- company banner or logo-->
-        <div class="banner">
-            <img alt="" src="static/banner01.jpg" style="width: 1400px; height: 170px" />
+        <div class="ban">
+            <h1>WeConnect</h1>
         </div>
+        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,18 +45,11 @@
                     <a class="nav-link" href="index.html"  style="padding-right:10px">Home <span class="sr-only">(current)</span></a>
                 </div>
                     <!--search log in and sign up-->
-                <div class="nav navbar-nav navbar-right">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                <div class="nav navbar-nav navbar-right">                    
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="login.html"  style="padding-right:10px">Log in</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="signup.html"  style="padding-right:10px">Sign up</a>
-                        </li>
+                        </li>                       
                     </ul>
                 </div>
             </div>
@@ -70,19 +64,19 @@
                     <div class="panel-body">
                         <form action="">
                                 <div class="form-group">
-                                    <input type="text" name="" class="form-control" placeholder="Enter Username...">
+                                    <input type="text" name="" class="form-control" placeholder="Enter Username..." required >
                                 </div><!--form-group -->
                                 <div class="form-group">
-                                    <input type="email" name="" class="form-control" placeholder="Enter Email...">
+                                    <input type="email" name="" class="form-control" placeholder="Enter Email..." required >
                                 </div><!--form-group -->
                                 <div class="form-group">
-                                    <input type="password" name="" class="form-control" placeholder="Enter Password...">
+                                    <input type="password" name="" class="form-control" placeholder="Enter Password..." required >
                                 </div><!--form-group -->                             
                                 <div class="form-group">
-                                    <input type="password" name="" class="form-control" placeholder="Confirm Password...">
+                                    <input type="password" name="" class="form-control" placeholder="Confirm Password..." required >
                                 </div><!--form-group -->
                                 <div class="form-group">
-                                    <input type="submit" name="" class="btn btn-primary btn-block" value="Register">
+                                   <a href="login.html" name="" class="btn btn-primary btn-block" value="sign up">Sign up </a>
                                 </div><!--form-group -->
                                 <p>Already have an account?<a href="login.html">Login</a></p>
                         </form><!--form --> 
