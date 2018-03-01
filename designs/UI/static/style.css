@@ -182,3 +182,7 @@ background-color: rgba(129 ,189 ,225, 0.2);
     font-size: .75rem;
     text-transform: uppercase;
   }
+  .container > div{
+      background-image: url("/home/lawrence/Desktop/WeConnect_Lawrence/designs/UI/static/images//12.jpg");
+      background-color: dodgerblue;
+  }
