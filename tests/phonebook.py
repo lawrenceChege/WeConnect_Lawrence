@@ -11,8 +11,8 @@ class Contacts(object):
         if self.name in CONTACTS:
             return " Contact already exists"
         CONTACTS[name]= {
-            "name" = self.name 
-            "phone" = self.phone
+            "name": self.name, 
+            "phone": self.phone
         }
         return CONTACTS[name]
 

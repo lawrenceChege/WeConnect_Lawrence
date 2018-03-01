@@ -2,7 +2,7 @@
 This test contains tests for adding contacts, updating, delete and view contacts"""
 from unittest import TestCase
 from phonebook import Contacts, CONTACTS 
-from app import APP
+
 
 CONTACT = Contacts()
 
