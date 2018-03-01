@@ -34,13 +34,12 @@
         <div class="ban">
             <h1>WeConnect</h1>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="navbar-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light " >
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#myPage">WeConnect</a>
-            </div>
+            </button>
+            <!--company name-->
+            <a class="navbar-brand" href="#">WeConnect</a>
             
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <div class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -53,7 +52,7 @@
                             <a class="nav-link" href="login.html"  style="padding-right:10px">Log in</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="signup.html"  style="padding-right:10px">Sign up</a>
+                            <a class="nav-link" href="signup.html"  style="padding-right:10px">sign up</a>
                         </li>
                     </ul>
                 </div>
@@ -65,107 +64,104 @@
     <div class="container" style="margin-top:100px ">
         <div class="row">           
             <form class="form-inline"   action="">
-                <div class="form-group" style="padding:10px">
-                    <input class="form-control mr-sm-2" type="search" placeholder="filter by category" aria-label="Search">
-                    </div><!--form-group -->
+                <div class="form-row align-items-center">
+                    <div class="col-auto my-1">
+                      <select class="custom-select mr-sm-2" aria-placeholder="filter by category" id="inlineFormCustomSelect">
+                          <option  ><label for="all"><strong>All Categories</strong></label></option>
+                          <option  ><label for="Automotive">Automotive</label></option>
+                          <option  ><label for="Baby">Baby</label></option>
+                          <option  ><label for="Beauty">Beautys</label></option>
+                          <option  ><label for="Books">Books</label></option>
+                          <option  ><label for="Cell">Cell Phones &amp; Service</label></option>
+                          <option  ><label for="Cloth">Clothing &amp; Accessories</label></option>
+                          <option  ><label for="Electronics">Electronics</label></option>
+                          <option  ><label for="Gourmet">Gourmet Food</label></option>
+                          <option  ><label for="Health">Health &amp; Personal Care</label></option>
+                          <option  ><label for="Home">Home &amp; Garden</label></option>
+                          <option  ><label for="Industrial">Industrial &amp; Scientific</label></option>
+                          <option  ><label for="Jewelry">Jewelry</label></option>
+                          <option  ><label for="Magazines">Magazines</label></option>
+                      </select>
+                    </div>
+                  </div>
                 <div class="form-group"style="padding:10px">
                     <input class="form-control mr-sm-2" type="search" placeholder="filter by location" aria-label="Search">
                 </div><!--form-group -->
                 <div class="form-group"style="padding:10px" >
-                    <a href="dashboard.html" type="submit" name="" class="btn btn-primary btn-block" value="Login"> search</a>
+                    <a href="home.html" type="submit" name="" class="btn btn-primary btn-block" value="Login"> search</a>
                 </div><!--form-group -->                                 
             </form><!--form --> 
         </div><!-- row-->
     </div><!--container -->
     <!-- businesses-->
-    <div class="row">
+    <div class="row" style="margin-top:100px ">
         <div class="col-sm-12 col-md-6 col-lg-3">
             <div class="card" id="hotel" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
                 <div class="card-body">                    
-                    <h5class="card-header">Featured</h5>                    
+                     <h5 class="card-header">Special title treatment</h5>                    
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                     <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card"  id="garden" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/2.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-header">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card" id="cafe" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/3.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-header">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card" id="hotel" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/4.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-header">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" id="hotel" style="width: 18rem;">
+            <div class="card" id="park" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
                 <div class="card-body">                    
-                    <h5class="card-header">Featured</h5>                    
+                     <h5 class="card-header">Special title treatment</h5>                    
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" id="hotel" style="width: 18rem;">
+            <div class="card" id="cafe" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
                 <div class="card-body">                    
-                    <h5class="card-header">Featured</h5>                    
+                     <h5 class="card-header">Special title treatment</h5>                    
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card" id="hospital" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/2.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-header">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="static/images/3.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-header">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="static/images/4.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-header">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
@@ -173,49 +169,69 @@
             <div class="card" id="hotel" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
                 <div class="card-body">                    
-                    <h5class="card-header">Featured</h5>                    
+                     <h5 class="card-header">Special title treatment</h5>                    
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" id="hotel" style="width: 18rem;">
-                    <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
-                <div class="card-body">                    
-                    <h5class="card-header">Featured</h5>                    
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card"  id="garden" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/2.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-header">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card" id="cafe" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/3.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-header">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-            <div class="card" style="width: 18rem;">
+            <div class="card" id="hotel" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/4.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-header">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" id="park" style="width: 18rem;">
+                    <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
+                <div class="card-body">                    
+                     <h5 class="card-header">Special title treatment</h5>                    
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" id="cafe" style="width: 18rem;">
+                    <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
+                <div class="card-body">                    
+                     <h5 class="card-header">Special title treatment</h5>                    
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" id="hospital" style="width: 18rem;">
+                    <img class="card-img-top" src="static/images/2.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-header">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
@@ -223,15 +239,73 @@
             <div class="card" id="hotel" style="width: 18rem;">
                     <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
                 <div class="card-body">                    
-                    <h5class="card-header">Featured</h5>                    
+                     <h5 class="card-header">Special title treatment</h5>                    
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                     <a href="#" class="btn btn-sm btn-primary">Review</a>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card"  id="garden" style="width: 18rem;">
+                    <img class="card-img-top" src="static/images/2.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-header">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" id="cafe" style="width: 18rem;">
+                    <img class="card-img-top" src="static/images/3.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-header">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" id="hotel" style="width: 18rem;">
+                    <img class="card-img-top" src="static/images/4.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-header">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" id="park" style="width: 18rem;">
+                    <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
+                <div class="card-body">                    
+                     <h5 class="card-header">Special title treatment</h5>                    
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" id="cafe" style="width: 18rem;">
+                    <img class="card-img-top" src="static/images/1.jpeg" alt="Card image cap">
+                <div class="card-body">                    
+                     <h5 class="card-header">Special title treatment</h5>                    
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" id="hospital" style="width: 18rem;">
+                    <img class="card-img-top" src="static/images/2.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-header">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                       <a href="hotel.html" class="btn btn-sm btn-primary">Review</a>
                 </div>
             </div>
         </div>
     </div>
-    
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

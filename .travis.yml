@@ -7,4 +7,4 @@ install: True
 # Test script
 script:
   True
- 
+after_success: coveralls 

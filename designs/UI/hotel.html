@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale-1,shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--title of the page-->
+    <title>Dashboard</title>
+
+    <!-- links to css ,bootstrap and fonts--> 
+     <!-- links to css ,bootstrap and fonts--> 
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> 
+   <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="/fonts/glyphicons-halflings-regular.svg">
+   <link rel="stylesheet"  href="static/style.css">
+   <link rel="stylesheet"  href="static/css/bootstrap.css">
+   <link rel="stylesheet"  href="static/css/bootstrap.min.css">
+   <link rel="stylesheet"  href="static/css/bootstrap-grid.min.css">
+   <link rel="stylesheet"  href="static/css/bootstrap-reboot.min.css">
+
+   <!-- java script for bootstrap-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+   <script src="static/js/bootstrap.min.js"></script>
+   <script src="static/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-image: url("#")">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--company name-->
+            <a class="navbar-brand" href="#">WeConnect</a>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <div class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <a class="nav-link" href="index.html"  style = "padding-right:10px">Home <span class="sr-only">(current)</span></a>
+                </div>
+                    <!--search log in and sign up-->
+                <div class="nav navbar-nav navbar-right">
+                        <form class="form-inline"   action="">
+                            <div class="form-row align-items-center">
+                                <div class="col-auto my-1">
+                                    <select class="custom-select mr-sm-2" aria-placeholder="filter by category" id="inlineFormCustomSelect">
+                                        <option  ><label for="all"><strong>All Categories</strong></label></option>
+                                        <option  ><label for="Automotive">Automotive</label></option>
+                                        <option  ><label for="Baby">Baby</label></option>
+                                        <option  ><label for="Beauty">Beautys</label></option>
+                                        <option  ><label for="Books">Books</label></option>
+                                        <option  ><label for="Cell">Cell Phones &amp; Service</label></option>
+                                        <option  ><label for="Cloth">Clothing &amp; Accessories</label></option>
+                                        <option  ><label for="Electronics">Electronics</label></option>
+                                        <option  ><label for="Gourmet">Gourmet Food</label></option>
+                                        <option  ><label for="Health">Health &amp; Personal Care</label></option>
+                                        <option  ><label for="Home">Home &amp; Garden</label></option>
+                                        <option  ><label for="Industrial">Industrial &amp; Scientific</label></option>
+                                        <option  ><label for="Jewelry">Jewelry</label></option>
+                                        <option  ><label for="Magazines">Magazines</label></option>
+                                    </select>
+                                </div>
+                                </div>
+                            <div class="form-group"style="padding:10px">
+                                <input class="form-control mr-sm-2" type="search" placeholder="filter by location" aria-label="Search">
+                            </div><!--form-group -->
+                            <div class="form-group"style="padding:10px" >
+                                <a href="home.html" type="submit" name="" class="btn btn-primary btn-block" value="Login"> search</a>
+                            </div><!--form-group -->                                 
+                        </form><!--form --> 
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html"  style="padding-right:10px">Log out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container" role="main">
+        <div class="position-relative overflow-hidden p-3 p-md-3  bg-light">
+            <div class="col-md-5 p-lg-5 mx-auto  my-5">
+                <h1 class="display-4 text-left font-weight-normal">business name</h1>
+                <p class="lead text-left font-weight-normal">A brief description of the business .</p><!-- 
+                <img class="mr-2 rounded" data-ng-src="" src="static/images/14.jpeg" alt="avtr" style="width: 280px; height:140px;" data-holder-rendered="true"> -->              
+            </div>
+            <small>
+                <a class="btn btn-outline-secondary" href="#reviewModal"> Give a review</a>
+                <a class="btn btn-outline-secondary" href="#"> Rate us</a>
+            </small>
+        </div>
+        <div class="my-3 p-3 bg-white rounded box-shadow">
+            <h6 class="border-bottom border-gray pb-2 mb-0">Recent reviews</h6>
+            <div class="media text-muted pt-3">
+                <img class="mr-2 rounded" data-ng-src="" src="" alt="avtr" style="width: 32px; height:32px;" data-holder-rendered="true">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">@mary</strong>
+                    This is the best place i have been so far. Splendid service!
+                    i would recommend to anyone who wants to eat out at a cool serene place
+                                     
+                </p>
+                <small>
+                    <a class="btn btn-sm btn-info btn-outline-secondary" href="#">like</a>
+                    <a class="btn btn-sm btn-info btn-outline-secondary" href="#">dislike</a>
+                </small class="d-block text-right mt-3">
+            </div>
+            <div class="media text-muted pt-3">
+                <img class="mr-2 rounded" data-ng-src="" src="" alt="avtr" style="width: 32px; height:32px;" data-holder-rendered="true">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">@martin</strong>
+                    This is the best place i have been so far. Great service!
+                    i would recommend to anyone who wants to eat out at a cool serene place
+                                        
+                </p>
+                <small>
+                    <a class="btn btn-sm btn-info btn-outline-secondary" href="#">like</a>
+                    <a class="btn btn-sm btn-info btn-outline-secondary" href="#">dislike</a>
+                </small>
+            </div>
+            <div class="media text-muted pt-3">
+                <img class="mr-2 rounded" data-ng-src="" src="" alt="avtr" style="width: 32px; height:32px;" data-holder-rendered="true">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">@kezzy</strong>
+                    This is the best place i have been so far. Lovely service!
+                    i would recommend to anyone who wants to eat out at a cool serene place
+                                       
+                </p>
+                <small>
+                    <a class="btn btn-sm btn-info btn-outline-secondary" href="#">like</a>
+                    <a class="btn btn-sm btn-info btn-outline-secondary" href="#">dislike</a>
+                </small> 
+            </div>
+            <div class="media text-muted pt-3">
+                <img class="mr-2 rounded" data-ng-src="" src="" alt="avtr" style="width: 32px; height:32px;" data-holder-rendered="true">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+                    <strong class="d-block text-gray-dark">@kevin</strong>
+                    This is the best place i have been so far. Awesome service!
+                    i would recommend to anyone who wants to eat out at a cool serene place
+                                       
+                </p>
+                <small>
+                    <a class="btn btn-sm btn-info btn-outline-secondary" href="#">like</a>
+                    <a class="btn btn-sm btn-info btn-outline-secondary" href="#">dislike</a>
+                </small> 
+            </div>
+        </div>
+    </main>
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button> -->
+    <div class="container panel" id="reviewModal">
+        <div class="panel-body">
+                <form>
+                    <div class="form-group">
+                    <label for="recipient-name" class="col-form-label">business:</label>
+                    <input type="text" class="form-control" placeholder="business name" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                    <label for="message-text" class="col-form-label">Review:</label>
+                    <textarea class="form-control" id="message-text" placeholder="How was your experience?"></textarea>
+                    </div>
+                </form>
+                </div>
+                <div class="panel-footer">
+                <button type="button" class="btn btn-primary">Submit review</button>
+                </div>
+    </div>
+
+
+    
+  
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+</html>
